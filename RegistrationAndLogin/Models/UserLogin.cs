@@ -8,7 +8,7 @@ namespace RegistrationAndLogin.Models
 {
     public class UserLogin
     {
-        [Display(Name ="Email ID")]
+        [Display(Name ="Email ID1")]
         [Required(AllowEmptyStrings =false, ErrorMessage ="Email ID required")]
         public string EmailID { get; set; }
 
@@ -16,7 +16,7 @@ namespace RegistrationAndLogin.Models
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [Display(Name ="Remember Me")]
+        [Display(Name ="Remember Me1")]
         public bool RememberMe { get; set; }
     }
 }
